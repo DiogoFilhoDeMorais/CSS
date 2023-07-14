@@ -10,12 +10,12 @@
 /* GRID 01 */
 .grid-01 {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
 article.grid-01.card {
     margin: 10px;
-    height: 200px;
+    height: 150px;
     background-color: chartreuse;
     border-radius: 10px;
 }
