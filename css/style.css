@@ -23,12 +23,25 @@ article.grid-01.card {
 /* GRID 02 */
 .grid-02 {
     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+article.grid-02.card {
+    margin: 10px;
+    height: 150px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+}
+
+/* GRID 03 */
+.grid-03 {
+    display: grid;
     grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-.grid-02.row {
+.grid-03.row {
     margin: 10px;
     height: 200px;
-    background-color: chartreuse;
+    background-color: darkorchid;
     border-radius: 10px;
 }
